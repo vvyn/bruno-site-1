@@ -1,5 +1,6 @@
 body {
     background-color: #BFDCAE;
+    margin: 0px;
 }
 
 hr {
@@ -12,6 +13,7 @@ hr {
 
 h1{
     color: #284e21;
+    margin-top: 0px;
 }
 
 h3{
@@ -27,4 +29,15 @@ img{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+  }
+
+  .top-header{
+      background-color: #7b996a;
+      padding-bottom: 10px;
+      padding-top: 20px;
+  }
+
+  .bru-img{
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
