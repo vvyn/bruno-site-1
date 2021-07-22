@@ -1,29 +1,36 @@
+/* ######################################################### TAG #########################################################*/
 body {
-    background-color: #BFDCAE;
+    background-color: #b1cea1;
     margin: 0px;
 }
 
 hr {
     border-style: none;
     border-top-style: dotted;
-    width: 90%;
+    width: 90%; 
     border-width: 5px;
     border-color: #206A5D;
 }
 
 h1{
-    color: #284e21;
+    color: #1f3d1a;
     margin-top: 0px;
 }
 
 h3{
     color: #284e21;
+    padding-left: 10px;
 }
 
 img{
     border-radius: 25px;
 }
 
+button:active{
+    background-color: #284e21;
+}
+
+/* ######################################################### CLASS #########################################################*/
 .center {
     display: block;
     margin-left: auto;
@@ -41,3 +48,18 @@ img{
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+.review-txt:hover{
+    color: #dd9b21;
+}
+
+.txt-under{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.top-head {
+    padding-top: 20px;
+}
+
+/* ######################################################### ID #########################################################*/
